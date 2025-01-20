@@ -1,0 +1,16 @@
+/* bugSolution.css */
+
+@media (max-width: 768px) {
+  .my-element {
+    width: 70vw; /* Use viewport width instead of calc() */
+    /* Alternative solution: use absolute units */
+    /* width: 500px; */
+  }
+}
+
+/* original bug.css below */
+/*@media (max-width: 768px) {
+  .my-element {
+    width: calc(100% - 20px);
+  }
+}*/
